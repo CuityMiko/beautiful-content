@@ -92,6 +92,86 @@ RSS限制
 Nginx 
 限制IP
 
+
+于是再度拿来了[goaccess 分析 nginx log](http://www.phodal.com/blog/use-goaccess-analyse-nginx-log/)。
+
+
+Visitors	| %	| Name	
+--------------|-----|--------
+58222	|50.71%	|Unknown	
+21231	|18.49%	|Safari	
+18422	|16.04%	|Chrome	
+7049	|6.14%	|Crawlers	
+
+至少有6%是Crawlers，没有办法确认50%的未知是什么情况，这些爬虫有:
+
+- Googlebot
+- bingbot
+- Googlebot-Mobile
+- Baiduspider
+- YisouSpider
+
+当然还有一些坏的爬虫:
+
+- AhrefsBot
+- Python-urllib/2.6
+- MJ12bot/v1.4.5
+-  Slurp
+
+先让我们干掉这些Bug。。。
+
+###用User Agent禁用爬虫
+
+于是在网上找到了一些nginx的配置
+
+```nginx
+# Forbid crawlers such as Scrapy
+if ($http_user_agent ~* (Scrapy|Curl|HttpClient)) {
+    return 403;
+}
+ 
+# Disable specify UA and empty UA access
+if ($http_user_agent ~ "FeedDemon|JikeSpider|Indy Library|Alexa Toolbar|AskTbFXTV|AhrefsBot|CrawlDaddy|CoolpadWebkit|Java|Feedly|UniversalFeedParser|ApacheBench|Microsoft URL Control|Swiftbot|ZmEu|oBot|jaunty|Python-urllib|lightDeckReports Bot|YYSpider|DigExt|YisouSpider|HttpClient|MJ12bot|heritrix|EasouSpider|Ezooms|^$" ) {
+    return 403;
+}
+ 
+# Forbid crawlers except GET|HEAD|POST method
+if ($request_method !~ ^(GET|HEAD|POST)$) {
+    return 403;
+}
+```
+
+顺手也把curl也禁用掉了，
+
+```bash
+curl -I -s www.phodal.com
+HTTP/1.1 403 Forbidden
+Server: mokcy/0.17.9
+Date: Thu, 09 Apr 2015 14:22:42 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 169
+Connection: keep-alive
+```
+
+当User Agent是上面的爬虫时，返回403。如果是Google的Bot的话:
+
+```bash
+curl -I -s -A 'Googlebot' www.phodal.com
+HTTP/1.1 200 OK
+Server: mokcy/0.17.9
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Accept-Language, Cookie
+Content-Language: en
+X-UA-Compatible: IE=Edge,chrome=1
+Date: Thu, 09 Apr 2015 14:39:11 GMT
+X-Page-Speed: Powered By Phodal
+Cache-Control: max-age=0, no-cache
+```
+
+符合预期
+
 SEO
 ---
 
