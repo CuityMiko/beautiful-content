@@ -4,8 +4,9 @@
 
 对于以技术为核心的技术博客来说，人们是冲着他们需要的内容去的，绝大多数情况下都不是在闲逛。如果你的网站里没有他想要的东西的话，他便会离开，人们是出于目的去搜索，基于动机，而不是无聊的在闲逛。无聊的话，他们更多的会去刷刷朋友圈的。
 
-阅读的过程
+阅读的类型
 ---
+
 
 
 ###完成工作
@@ -37,7 +38,7 @@
 
 接着，奉献上一章我的博客的用户来源图，分析完大概如下：
 
-![traffic-source.png](./images/traffic-source.png)
+![traffic-source.png](../images/traffic-source.png)
 
 **前三者可以带来很多的流量，后者可以带来大量的评论啦。**
 
@@ -49,19 +50,19 @@
 
 在Google中有个好位置意味着——第一的位置会有50%以上的用户访问，这一点很重要哦~~。再放出神图：
 
-![google.png](./images/google-search-results.png)
+![google.png](../images/google-search-results.png)
 
 首先作为一个专业的程序员，我们会用某个关键词去搜索，如“InsecurePlatformWarning: A true SSLContext object is not available.” :如果这时你的标题就是《[Python 解决 InsecurePlatformWarning: A true SSLContext object is not available](https://www.phodal.com/blog/python-pip-openssl-issue/)》，那么你就找到了你的用户了。
 
 **这是我之前用了5分钟不到的文章写的一篇文章，它在半年的时间里带来了6,599个访问量**。它在Google的搜索结果中排第一：
 
-![google-search-python-issue.jpg](./images/google-search-python-issue.jpg)
+![google-search-python-issue.jpg](../images/google-search-python-issue.jpg)
 
 虽然很不情愿地被排名第二的文章抄袭了——但是我还是第一，这该死的**伪原创**。
 
 而用户不会只访问你的一个页面的:
 
-![user-behavior.jpg](./images/user-behavior.jpg)
+![user-behavior.jpg](../images/user-behavior.jpg)
 
 
 **一般来说，前三种类型的用户获取到他们想要的信息就走了，不会留下评论**。至于第四种类型，没有大V的光环，偶尔文章被转企业V转转也能多个几十个粉丝。所以我没有第四种类型的文章太多的经验哈。
