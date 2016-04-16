@@ -30,39 +30,51 @@
  - **前三种类型的用户获取到他们想要的信息就走了，不会留下评论**。
 - **第四种类型，没有大V的光环，偶尔文章被转企业V转转也能多个几十个粉丝。所以我没有第四种类型的文章太多的经验哈。**
 
-下面我们就依据不同的类型来展开内容
+不过，下面我们要依据不同的流量来源来分析文章的用户群体。
 
-###技术细节型：搜索引擎x完成工作
+###搜索引擎：完成工作
 
-这种类型主要依据于搜索引擎来完成，除非你写的不是细节类型的文章。先让我们了解一下，什么是技术细节型的文章——就是看一些标题啦：
+使用搜索引擎来找内容的用户一般都是为了``完成工作``，这一类的流量主要是以技术细节型的文章为主。先让我们简单地了解一下，什么是技术细节型的文章——就是看一些标题啦：
 
  - [Django ElasticSearch Ionic 打造GIS 移动应用](https://www.phodal.com/blog/django-elasticsearch-ionic-build-gis-application/)
  - [Django Haystack ElasticSearch 环境准备](https://www.phodal.com/blog/django-elasticsearch-haystack-prepare-enviorment/)
  - [Ionic ElasticSearch 搜索服务](https://www.phodal.com/blog/ionic-searchview-django-elasticsearch-ionic-build-gis-application/)
 
-####用户行为分析
-
-对于这里的用户来说，他们想要的只是获取他们想要的内容，而我们做的也就是把他们所需要的信息给予他们。基本的用户心理便是:
+这一些文章展现了特别多的技术细节。对于不懂这个领域的人来说，他们完成没有兴趣。因此就算你把这一类的文章推送到各个平台上，也不会有效果的。所以写好内容，然后取个好标题，然后将这件事交给搜索引擎就可以了。他们想要的只是获取他们想要的内容，而我们所要做的就是给他们想要的内容。因为：
 
 > 用户不想在你的网站花费太多的时间，他们需要有足够的时间去做别的事情
 
-这点可以从技术人员的心理去思考，我们只想解决我们的问题，而使用搜索引擎的目的就是去找到我们需要的内容。
+我们只想解决我们当前的问题，完成后我们就可以去刷朋友圈了。
 
-在Google中有个好位置意味着——第一的位置会有50%以上的用户访问，这一点很重要哦~~。再放出神图：
+####用户行为分析
+
+下图是我博客的流量来源分析：
+
+![user-behavior.jpg](../images/user-behavior.jpg)
+
+我们可以看到在第二栏“起始页”里，绝大部分的用户（13万/15万）都离开了——即用户找到了他们想要的内容，随后就离开了，这对于其他类型的文章也是一样的。不过，值得注意的是大概会有2万的用户会继续访问其他页面。
+
+主要的用户来源都来自Google，这时就依赖于我们在Google中有一个好的排名。上神图：
 
 ![google.png](../images/google-search-results.png)
 
-首先作为一个专业的程序员，我们会用某个关键词去搜索，如“InsecurePlatformWarning: A true SSLContext object is not available.” :如果这时你的标题就是《[Python 解决 InsecurePlatformWarning: A true SSLContext object is not available](https://www.phodal.com/blog/python-pip-openssl-issue/)》，那么你就找到了你的用户了。
+依据Mediative在2014年的研究([The Evolution of Google’s Search Results Pages & Effects on User Behaviour](http://www.mediative.com/whitepaper-the-evolution-of-googles-search-results-pages-effects-on-user-behaviour/))表明，新的眼动研究如下图所示：
 
-**这是我之前用了5分钟不到的文章写的一篇文章，它在半年的时间里带来了6,599个访问量**。它在Google的搜索结果中排第一：
+![new-google-user-traffic.jpg](../images/new-google-user-traffic.jpg)
+
+这只是在说明Google的语义化搜索，已经初显成效。值得注意的是：2005年时，前4位的链接点击比例是47.8%，而在2014年这次研究的结果是62.6%。
+
+作为一个专业的程序员，我们会用问题的关键词去搜索，如``InsecurePlatformWarning: A true SSLContext object is not available.`` 。 如果这时你的标题就是《[Python 解决 InsecurePlatformWarning: A true SSLContext object is not available](https://www.phodal.com/blog/python-pip-openssl-issue/)》，那么你就找到了你的用户了。
+
+ **这是我之前用了5分钟不到的时间写的一篇文章，它在半年的时间里带来了6,599个访问量**。它在Google的搜索结果中排第一：
 
 ![google-search-python-issue.jpg](../images/google-search-python-issue.jpg)
 
-虽然很不情愿地被排名第二的文章抄袭了——但是我还是第一，这该死的**伪原创**。
+(PS: 虽然很不情愿地被排名第二的文章抄袭了——但是我还是第一，这该死的**伪原创**。)
 
-而用户不会只访问你的一个页面的:
+对于大部分用户来说，一看到这个标题就深深觉得这会解决自己的问题，并且它还是中文的。同时，随着用户点击量的升高这篇文章的排名就会越来越高——这就是Google。
 
-![user-behavior.jpg](../images/user-behavior.jpg)
+用户试了一下上面的解决问题的思路，发现可以工作，于是就走了。当用户发现按上面的步骤来不行，大部分用户就直接离开了。除非这是唯一的解决方案，那么用户可能会抱一点点希望的留个言。
 
 ###聚合网站
 
