@@ -28,7 +28,7 @@
  - **社交媒体可以让第四种类型的文章，有大量的评论和转载。**
  - **干货型和实践总结型的文章通过聚合网站来传播的效果最好。**
  - **前三种类型的用户获取到他们想要的信息就走了，不会留下评论**。
-- **第四种类型，没有大V的光环，偶尔文章被转企业V转转也能多个几十个粉丝。所以我没有第四种类型的文章太多的经验哈。**
+ - **第四种类型，没有大V的光环，偶尔文章被转企业V转转也能多个几十个粉丝。所以我没有第四种类型的文章太多的经验哈。**
 
 不过，下面我们要依据不同的流量来源来分析文章的用户群体。
 
@@ -90,12 +90,38 @@
 
 ![csdn-geek.png](../images/csdn-geek.png)
 
-上图是文章发表在CSDN极客头条上的，可以看到阅读数有5k+。
+上图是文章发布在CSDN极客头条上的，可以看到阅读数有5k+。
 
 ![gold-xitu.jpg](../images/gold-xitu.jpg)
 
-而在稀土掘金上也有1k+的阅读量，而如果是一些更好的技术文章，那么它就会有更高的阅读量。
+而在稀土掘金上也有1k+的阅读量，而如果是一些更好的技术文章，那么它就会有更高的阅读量。在这些网站上比较受欢迎的文章类型就是：
 
-###讨论
+ - 干货型            
+ - 实践总结型    
+ - 杂谈与鸡汤型
 
-###朋友圈
+除了好的内容之外，他也应该是普通用户能读懂的读物，如：
+
+  - [程序员如何提高影响力 2.0](https://www.phodal.com/blog/improve-impact-2/)
+  - [Developer进阶书单](https://github.com/phodal/booktree)
+  - [我的编程生涯里启发我的15本书](https://www.phodal.com/blog/most-important-15-books-of-phodal-programmer-life/) 
+
+对于这部分的内容来说，我们只需要关注一点：**人们只关注和自己相关的，并且也是可以达到的**。
+
+除此，还要有一个好的标题：
+
+ - [最流行的编程语言JavaScript能做什么？](http://zhuanlan.zhihu.com/p/20731338) 这只是一篇介绍JavaScript在不同领域的应用。
+ - [听我说说我的博客: 月访问量过万的个人IT博客的技术史](https://www.phodal.com/blog/phodal-blog-techlogoy-development/) 这只用来介绍我博客的技术发展史。
+
+这些文章和总结只要标题好、内容实在，都很容易在聚合网站上有一个好的排名。
+
+![longtail.png](../images/longtail.png)
+
+###社交媒体
+
+这一类主要于传播性为主，由于我不是一个大V啦，我只能介绍一些有限的经验。
+
+![growth-weibo.jpg](../images/growth-weibo.jpg)
+
+![growth-wp.jpg](../images/growth-wp.jpg)
+
