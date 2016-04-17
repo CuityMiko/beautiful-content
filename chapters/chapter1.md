@@ -199,6 +199,6 @@
 
 欢迎关注我的微信公众号（搜索Phodal):
 
-![QRCODE](../images/qrcode.jpg)
+![QRCODE](../qrcode.jpg)
 
 
