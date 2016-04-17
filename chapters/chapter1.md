@@ -115,13 +115,23 @@
 
 这些文章和总结只要标题好、内容实在，都很容易在聚合网站上有一个好的排名。
 
-![longtail.png](../images/longtail.png)
-
 ###社交媒体
 
 这一类主要于传播性为主，由于我不是一个大V啦，我只能介绍一些有限的经验。
 
+####微博
+
 ![growth-weibo.jpg](../images/growth-weibo.jpg)
 
+####微信公众号
+
 ![growth-wp.jpg](../images/growth-wp.jpg)
+
+####知乎
+
+###小结
+
+最后，让我们一张图结束这一篇的内容吧！
+
+![longtail.png](../images/longtail.png)
 
