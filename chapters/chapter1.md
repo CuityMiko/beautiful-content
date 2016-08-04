@@ -19,7 +19,7 @@
 
 并且他们的流量来源大概来源于下图所示：
 
-![traffic-source.png](../images/traffic-source.png)
+![traffic-source.png](./images/traffic-source.png)
 
 分析如下：
 
@@ -50,17 +50,17 @@
 
 下图是我博客的流量来源分析：
 
-![user-behavior.jpg](../images/user-behavior.jpg)
+![user-behavior.jpg](./images/user-behavior.jpg)
 
 我们可以看到在第二栏“起始页”里，绝大部分的用户（13万/15万）都离开了——即用户找到了他们想要的内容，随后就离开了，这对于其他类型的文章也是一样的。不过，值得注意的是大概会有2万的用户会继续访问其他页面。
 
 主要的用户来源都来自Google，这时就依赖于我们在Google中有一个好的排名。上神图：
 
-![google.png](../images/google-search-results.png)
+![google.png](./images/google-search-results.png)
 
 依据Mediative在2014年的研究([The Evolution of Google’s Search Results Pages & Effects on User Behaviour](http://www.mediative.com/whitepaper-the-evolution-of-googles-search-results-pages-effects-on-user-behaviour/))表明，新的眼动研究如下图所示：
 
-![new-google-user-traffic.jpg](../images/new-google-user-traffic.jpg)
+![new-google-user-traffic.jpg](./images/new-google-user-traffic.jpg)
 
 这只是在说明Google的语义化搜索，已经初显成效。值得注意的是：2005年时，前4位的链接点击比例是47.8%，而在2014年这次研究的结果是62.6%。
 
@@ -68,7 +68,7 @@
 
  **这是我之前用了5分钟不到的时间写的一篇文章，它在半年的时间里带来了6,599个访问量**。它在Google的搜索结果中排第一：
 
-![google-search-python-issue.jpg](../images/google-search-python-issue.jpg)
+![google-search-python-issue.jpg](./images/google-search-python-issue.jpg)
 
 (PS: 虽然很不情愿地被排名第二的文章抄袭了——但是我还是第一，这该死的**伪原创**。)
 
@@ -88,11 +88,11 @@
 
 这里是我们能统计到流量的网站的数据：
 
-![csdn-geek.png](../images/csdn-geek.png)
+![csdn-geek.png](./images/csdn-geek.png)
 
 上图是文章发布在CSDN极客头条上的，可以看到阅读数有5k+。
 
-![gold-xitu.jpg](../images/gold-xitu.jpg)
+![gold-xitu.jpg](./images/gold-xitu.jpg)
 
 而在稀土掘金上也有1k+的阅读量，而如果是一些更好的技术文章，那么它就会有更高的阅读量。在这些网站上比较受欢迎的文章类型就是：
 
@@ -145,7 +145,7 @@
 
 技术文章要在微博上传播开来的难度还是挺大的，除非你是大V。但是如果是一些好的内容也可以传播开来，主要看大V的扩散了——大V就是你的文章的引爆点。如下图是我之前写的 《[全栈增长工程师指南](https://github.com/phodal/growth-ebook)》，有幸得图灵教育和慕课网的扩散，因此有了195个转发。
 
-![growth-weibo.jpg](../images/growth-weibo.jpg)
+![growth-weibo.jpg](./images/growth-weibo.jpg)
 
 然并卵，由于没有分析工具，就没有办法帮分析了。值得注意的是，文章在微博上的传播时间比较短。换句话说，在明天没有人转发你的微博了。它唯一的主要作用是，帮你提高粉丝数。
 
@@ -153,7 +153,7 @@
 
 微信公众号就是一个门槛更高的活动了，坑比较深。如果好友不多、粉丝不高、自身知识度不高，传播起来难度就更大了。由于我的粉丝数量还不是非常多，我只能从中挑选中阅读量最高的一篇文章。这篇《[为什么说全栈工程师是未来？](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=405019922&idx=1&sn=354643ee38b0ca423cd0f3025fb98338#rd)》一共有2897个阅读，244个转发。
 
-![growth-wp.jpg](../images/growth-wp.jpg)
+![growth-wp.jpg](./images/growth-wp.jpg)
 
 所以，你也猜到了主要是靠朋友圈转发。而这有一个明显的限制是，假设1000个粉丝里只有20个转发，那么这篇文章的每天阅读人数就会是就会呈现递减趋势。通常这也是大部分文章的阅读量模型，除非中间有大V转发。
 
@@ -161,7 +161,7 @@
 
 知乎也是我最近尝试去玩的平台，总得来说上手是最容易的——只要你的内容好，那么完全没有难度。如下图是《[全栈增长工程师指南](https://github.com/phodal/growth-ebook)》的流量来源，会发现知乎占了很大的一部分。这种软植入的广告，在大家看来还是可以接受的。
 
-![zhihu.jpg](../images/zhihu.jpg)
+![zhihu.jpg](./images/zhihu.jpg)
 
 然，如果我们尝试在上面推广微信公众号的话，可能会遇到一些挫折。不过可以放上微信上的文章的链接。除此还有一个小技巧便是，把你写过的文章贴在相关的答案里加上原文链接即可。
 
@@ -171,7 +171,7 @@
 
 今日头条的头条号是让我最吃惊的一个平台——随便一篇文章都可以有上千、上万的阅读量。如下图就是我最近发的一篇文章：
 
-![mp-toutiao.jpg](../images/mp-toutiao.jpg)
+![mp-toutiao.jpg](./images/mp-toutiao.jpg)
 
 开始在这个平台上使用的原因是，自己发的文章经常到转载到上面，并且被修改得面目全非。同样的，我在开始使用微信公众号时也是如此。随后，我发现在上面可以有极大的阅读量，这下我就放心了。让更多的人可以接触我的文章这就足够了~~。
 
@@ -181,7 +181,7 @@
 
 简书也是一个很不错的写作平台，只是如果我们的文章上不了首页推荐的话，那么我们也不难获得很高的阅读。当你上了首页的推荐后，就会有下面的阅读量和喜欢。受限于技术文章的阅读群体比较小，也不会特别广泛。
 
-![jianshu.jpg](../images/jianshu.jpg)
+![jianshu.jpg](./images/jianshu.jpg)
 
 不过，如果你写的是什么值得推荐的APP那就还好，一般人都看得懂。并且简书上是打不了广告的，我们只依靠于在文中放点链接，哈哈~~。
 
@@ -191,14 +191,8 @@
 
 最后，让我们一张图结束这一篇的内容吧！你能想到什么？？
 
-![longtail.png](../images/longtail.png)
+![longtail.png](./images/longtail.png)
 
 **如果我们有一篇文章很火爆，那么它应该也要带动其他文章的增长。**
-
-精彩内容期待下一篇《创作篇：写作的要点》
-
-欢迎关注我的微信公众号（搜索Phodal):
-
-![QRCODE](../qrcode.jpg)
 
 
