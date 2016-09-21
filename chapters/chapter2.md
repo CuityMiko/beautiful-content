@@ -128,13 +128,13 @@ end
 
 第一步，在平时把想到的一些能写的文章用TODO的形式列出来，如我用的是“奇妙清单”。下面就是我最近想写的一些文章的一些标题：
 
-![wunderlist](http://repractise.phodal.com/img/writer/wunderlist.jpg)
+![wunderlist](./images/wunderlist.jpg)
 
 但是有一些还没灵感，只是想到了个大概——所以有的是只是一个标题。这些文章大部分都属于杂谈型的，想到什么就说点什么，但是会有个核心。
 
 第二步，在平时偶然会有点灵感的时候，就用Google Keep创建一个新的记事，稍微写几句，提醒一下自己咯。在这一步，相当于就是找一些论据来支撑自己的观点，等到这些观点差不多的时候就可以写了。
 
-![Google Keep](http://repractise.phodal.com/img/writer/google-keep.jpg)
+![Google Keep](./images/google-keep.jpg)
 
 第三步，便是写。写的时候其实没有啥感觉，就如同我之前在《[编程同写作，写代码只是在码字](https://www.phodal.com/blog/write-similar-program-just-typing/)》一文中所说的。不得不再说说这个标题，一看就知道要写什么了~~。
 

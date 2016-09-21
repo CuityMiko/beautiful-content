@@ -6,9 +6,9 @@
 
 ### 聚合网站的危害
 
-当我开始意识到我需要与聚合网站作战的起因是，我的博客在Google中的索引在不断地下降。如我在《[博客反爬虫 策略一——根据User Agent](/static/media/uploads/https://www.phodal.com/blog/nginx-disable-crawlers-by-user-agent/)》 所看到的索引值一样在下降。
+当我开始意识到我需要与聚合网站作战的起因是，我的博客在Google中的索引在不断地下降。如我在《[博客反爬虫 策略一——根据User Agent](https://www.phodal.com/blog/nginx-disable-crawlers-by-user-agent/)》 所看到的索引值一样在下降。
 
-![Anti Bad Bots](/static/media/uploads/anti-bad-bots.jpg)
+![Anti Bad Bots](./images/anti-bad-bots.jpg)
 
 索引值下降通常不外乎几个简单的原因：
 
@@ -25,11 +25,11 @@
 
 长此以远，你在Google中就看不到你的文章了。当时我也遇到了类似的情形，于是我开始反击。从禁止特爬虫到限制RSS的长度，也才有了下面的结果：
 
-![Google index Results](/static/media/uploads/google-index-results.jpg)
+![Google index Results](./images/google-index-results.jpg)
 
 但是第二个网站仍然是聚合网站，What's the fuck。对于我来说，这已经是很好的结局，在Google中的第一个结果是自己的文章。对于必应来说也是一个不错是的结果，然而下面仍然是一堆的聚合网站：
 
-![Bing Index Results](/static/media/uploads/bing-index-results.jpg)
+![Bing Index Results](./images/bing-index-results.jpg)
 
 而这是聚合网站的索引，在百度、360搜索、搜狗等等的搜索引擎就没有那么好运。
 
@@ -52,13 +52,13 @@
 
 而对于RSS转载来说，一种很有效的策略就是限定字符的全文输出，并且在RSS的最后加一个原文链接。如下图所示：
 
-![With Origin Links](/static/media/uploads/rss-limit.jpg)
+![With Origin Links](./images/rss-limit.jpg)
 
 尽管原文链接会被加上rel=nofollow，但是有趣的一点出现了。我们的文章是全文输出，而聚合网站的文章则会变成摘要~~，你懂的。搜索引擎就会知道哪里会有问题。与此同时一种有效的策略就是使用图片——放在自己网站上的图片，而这个图片多数时候也会被复制过去。那么胜利的天平将会向你倾斜。
 
 与此同时，还可以在一些Rank更高的网站上粘贴自己的文章，这是我最近在尝试的。但是这招只对于Google、Bing来说是有效的，对于百度来说，你懂的钱多就行了——从不指望百度可以从SEO中获取一些好处。并且在这些网站上粘贴上原文链接，那么依据Page Rank就会有下面的结果：
 
-![Page Rank for Copy Website](/static/media/uploads/page-rank-copy.jpg)
+![Page Rank for Copy Website](./images/page-rank-copy.jpg)
 
 除此还有防不胜防的爬虫，不断地修改自己的Rule?这就会变成一场无止尽的斗争。
 
